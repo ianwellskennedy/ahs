@@ -27,10 +27,10 @@ conflicts_prefer(dplyr::summarize(), dplyr::rename(), dplyr::group_by(), dplyr::
 # Setting file paths / reading in raw data ----
 
 # This line must be run independently of all other lines, and will ask for the user to enter the file path to 1997-2023 data in the console below!
-data_1997_2023_file_path <- "S:/BuildingProducts/AHS Historical Data/Cleaned Project Level AHS Files/ahs_data_1997_to_2023_project_level.xlsx"
-output_file_path <- "S:/BuildingProducts/AHS Historical Data/Cleaned Project Level AHS Files/ahs_data_1995_to_2023_project_level.xlsx"
+data_1997_2023_file_path <- "C:/Users/ianwe/Downloads/AHS Historical Data/Cleaned Project Level AHS Files/ahs_data_1997_to_2023_project_level.xlsx"
+output_file_path <- "C:/Users/ianwe/Downloads/AHS Historical Data/Cleaned Project Level AHS Files/ahs_data_1995_to_2023_project_level.xlsx"
 
-data_1995_file_path <- "S:/BuildingProducts/AHS Historical Data/Raw AHS Files/1995/ahs1995n.csv"
+data_1995_file_path <- "C:/Users/ianwe/Downloads/AHS Historical Data/Raw AHS Files/1995/ahs1995n.csv"
 
 # Read in the 1995 data, 1995 is in a wide format
 data_1995 <- read.csv(data_1995_file_path)

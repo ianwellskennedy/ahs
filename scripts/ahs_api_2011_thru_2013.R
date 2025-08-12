@@ -27,11 +27,11 @@ conflicts_prefer(dplyr::summarize(), dplyr::rename(), dplyr::group_by(), dplyr::
 # Setting file paths / reading in raw data ----
 
 # Set the file path to 2015-2021 data
-data_2015_2023_file_path <- "S:/BuildingProducts/AHS Historical Data/Cleaned Project Level AHS Files/ahs_data_2015_to_2023_project_level.xlsx"
-output_file_path <- "S:/BuildingProducts/AHS Historical Data/Cleaned Project Level AHS Files/ahs_data_2011_to_2023_project_level.xlsx"
+data_2015_2023_file_path <- "C:/Users/ianwe/Downloads/AHS Historical Data/Cleaned Project Level AHS Files/ahs_data_2015_to_2023_project_level.xlsx"
+output_file_path <- "C:/Users/ianwe/Downloads/AHS Historical Data/Cleaned Project Level AHS Files/ahs_data_2011_to_2023_project_level.xlsx"
 
 # Set the file path to the folder that contains all yearly AHS data folders you are interested in
-folder_location <- "S:/BuildingProducts/AHS Historical Data/Raw AHS Files/11_13"
+folder_location <- "C:/Users/ianwe/Downloads/AHS Historical Data/Raw AHS Files/11_13"
 folder_location
 
 # Before running any further code, make sure the file folders are located in the directory printed in the console below
